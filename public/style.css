@@ -1,0 +1,19 @@
+#app{ display: flex; }
+#menu,
+#content{
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: stretch;
+   align-content: stretch;
+   padding: 1em;
+}
+#menu{ background-color: #ddd; }
+table{ border-collapse: collapse; }
+table td,
+table th{ border: 1px solid #ccc; padding: 0.25em; text-align: left; }
+div.error{ margin: 1em 0; padding: 0.25em; color: red; }
+ul{ padding: 0 0.5em 0 1.5em; }
+ul li{ padding: 0.2em 0; }
+a{ text-decoration: none; color: blue; }
+a:hover{ text-decoration: underline; }
